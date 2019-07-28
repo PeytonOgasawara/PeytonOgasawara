@@ -41,7 +41,7 @@ $(document).ready(function(){
         data: stuff,
         success: function() {
             console.log('form submit success')
-            M.toast({html: 'We will get back to you shortly.'})
+            alert("Thank you! We'll get back to you shortly.");
             $("#submitButton").removeClass("pink");
             $("#submitButton").removeClass("lighten-3");
             $("#submitButton").text("Response Sent");
