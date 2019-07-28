@@ -1,3 +1,4 @@
-## MVP
+# hotplate 
+## basically chiller plate but hotter
 
-Actual stuff coming soon!
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
