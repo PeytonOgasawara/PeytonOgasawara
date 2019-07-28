@@ -45,7 +45,8 @@ $(document).ready(function(){
             $("#submitButton").removeClass("pink");
             $("#submitButton").removeClass("lighten-3");
             $("#submitButton").text("Response Sent");
-            $("#submitButton").addClass("disabled");
+            $("#form").addClass("opacity-50");
+            $("#form").addClass("cursor-not-allowed");
         }
       })
     })
