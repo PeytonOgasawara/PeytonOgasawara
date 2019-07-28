@@ -128,6 +128,23 @@
 					// Called after the entrance animation is executed.
 				}
 			});
+
+
+			var data = morphext.data("plugin_Morphext");
+
+			let isStopped = false;
+
+			window.addEventListener("scroll", function() {
+				var elementTarget = document.getElementById("adjective");
+				let isHidden = window.scrollY > (elementTarget.offsetTop + elementTarget.offsetHeight);
+				if(isHidden != isStopped) {
+					isStopped = isHidden;
+					if(isStopped)
+						data.stop();
+					else data.start();
+				}
+			});
+
 			</script>
 
 			<p class="uppercase tracking-loose w-full leading-tight">How will you support the movement?</p>
