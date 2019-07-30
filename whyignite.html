@@ -110,42 +110,10 @@
 	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 		<!--Left Col-->
 		<div class="flex flex-col w-full justify-center items-start text-center">
-			<h1 class="my-4 text-5xl font-bold w-full leading-tight" id="statement">We believe in <span id="adjective">free, accessible, hands-on, engaging</span> education</h1>
+			<!--
+
 			<p class="leading-normal text-2xl mb-8 w-full">Made possible by <b>YOUR</b> old smart devices</p>
 		
-			<script>
-
-				
-			let morphext = $("#adjective").Morphext({
-				// The [in] animation type. Refer to Animate.css for a list of available animations.
-				animation: "flipInX",
-				// An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
-				separator: ",",
-				// The delay between the changing of each phrase in milliseconds.
-				speed: 2000,
-				complete: function () {
-					// Called after the entrance animation is executed.
-				}
-			});
-
-
-			var data = morphext.data("plugin_Morphext");
-
-			let isStopped = false;
-
-			window.addEventListener("scroll", function() {
-				var elementTarget = document.getElementById("adjective");
-				let isHidden = window.scrollY > (elementTarget.offsetTop + elementTarget.offsetHeight);
-				if(isHidden != isStopped) {
-					isStopped = isHidden;
-					if(isStopped)
-						data.stop();
-					else data.start();
-				}
-			});
-
-			</script>
-
 			<p class="uppercase tracking-loose w-full leading-tight">How will you support the movement?</p>
 			
 			<div class="w-full text-center" style="margin-bottom: 48px; z-index: 9">
@@ -156,6 +124,7 @@
 					<button class="hover:underline bg-white mx-4 text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Support Us</button>
 				</a>
 			</div>
+-->
 
 			<!--
 			<p class="leading-normal text-base md:text-2xl mb-8 text-center w-full slide-in-bottom-subtitle">We take your old unused phones and tablets, wipe it with WeIgnite OS—our software preloaded with educational apps and curriculum—and ship it to kids who need it free of cost.</p>
@@ -183,9 +152,9 @@
 
 
 
-<section class="bg-white border-b py-8" id="why-ignite">
-	<div class="container max-w-5xl mx-auto m-8">
-		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">264 million children are denied the right to education</h1>
+<section class="bg-white border-b py-8" id="why-ignite" style="padding-top: 0px; margin-top: 0px">
+	<div class="container max-w-5xl mx-auto m-8" style="padding-top: 0px; margin-top: 0px">
+		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800" style="margin-top: 0px">Why Ignite?</h1>
 		<div class="w-full mb-4">	
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
@@ -253,102 +222,9 @@
 		</div>
 		<p class="leading-normal text-gray-800 text-base md:text-2xl mb-8 text-center w-full slide-in-bottom-subtitle">We take your old unused phones and tablets, wipe it with WeIgnite OS—our software preloaded with educational apps and curriculum—and ship it to kids who need it along with our hands on kits free of cost.</p>
 	
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="https://shop.weignitechange.com" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">Your Purchase Matters</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Buy Merchandise</div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-						Your support matters. Each dollar you spend on our mechandise contributes to delivering a free educational device to children in need. 					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-start">
-<a href="https://shop.weignitechange.com">
-					<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Visit Shop</button>
-</a>
-				</div>
-			</div>
-		</div>
-		
-		
-		
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="/form.html?product=donate_devices" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">Donate Devices</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Donate Old Devices</div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-							Donate your old phones or tablets. Each device donated is recycled and and transformed into a helpful tool for the children in need. Sign up and we will send you a shipping box - all you need to do is complete the packaging and send it back!
-					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-				<div class="flex items-center justify-center">
-						<a href="/form.html?product=donate_devices">
-
-					<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Start Shipping Devices</button>
-						</a>
-				</div>
-			</div>
-		</div>
-		
-		
-		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-				<a href="https://shop.weignitechange.com" class="flex flex-wrap no-underline hover:no-underline">
-					<p class="w-full text-gray-600 text-xs md:text-sm px-6">Donate Money</p>
-					<div class="w-full font-bold text-xl text-gray-800 px-6">Buy our hands-on kits</div>
-					<p class="text-gray-800 text-base px-6 mb-5">
-We also provide educational kits for hands on, engaging learning. These kits are made from 100% recycled materials and range a variety of subjects from chemistry to science. If you don't have access to education and are applicable to receive our free educational tools, these kits are included for free. Otherwise you can purchase them at our shop with the money going towards helping others.
-					</p>
-				</a>
-			</div>
-			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6 float-right">
-				<div class="flex items-center justify-start float-right">
-<a href="https://shop.weignitechange.com">
-					<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg float-right">Visit Shop</button>
-</a>
-				</div>
-			</div>
-		</div>
-		
-		
 	</div>
 
 </section>
-
-
-<section class="bg-gray-100 py-8">
-
-
-	
-		<div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
-		
-			
-			<div class="flex flex-col sm:flex-row justify-center pt-12 sm:my-4">
-				
-				<div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
-					<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-						<div class="w-full p-8 text-3xl font-bold text-center">Software Features</div>
-						<div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-						<ul class="w-full text-center text-base font-bold">
-							<li class="border-b py-4">Pre-Downloaded Apps</li>
-							<li class="border-b py-4">YouTube Kids</li>
-							<li class="border-b py-4">Restricted Search Engine</li>
-							<li class="border-b py-4">Safe Web Filter</li>
-						</ul>					
-					</div>
-				</div>
-				
-				
-			</div>
-			
-		</div>
-			
-			
-	</section>
-	
 
 
 <!-- Change the colour #f8fafc to match the previous section colour -->
@@ -368,25 +244,6 @@ We also provide educational kits for hands on, engaging learning. These kits are
 		</g>
 	</g>
 </svg>
-
-<section class="container mx-auto text-center py-6 mb-12" id="apply">
-
-	<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Spread the Good News</h1>
-	<div class="w-full mb-4">	
-		<div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
-	</div>
-
-	<h3 class="my-4 text-3xl leading-tight">
-			If you know any family or a child that is seeking a free education opportunity, spread the good news! 
-		</h3>	
-
-	<a href="/form.html?product=receive_device">
-		<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Apply to receive kits</button>
-	</a>
-	<p class="text-white-600 text-xs italic">The WeIgniteChange kit includes a free phone or tablet with educational software along with multiple hands-on interactive learning kits built from recycled toys and materials</p>
-
-</section>
-
 
 <!--Footer-->
 <footer class="bg-white">
